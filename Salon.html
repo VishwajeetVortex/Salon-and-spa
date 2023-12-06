@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>salon and spa</title>
+    <style>
+        body {
+            background-image: url(https://larastyles.com/wp-content/uploads/2022/09/Lara-Banner-06-copy.jpg);
+            width: 100%;
+            height: 100vh;
+            background-size: cover;
+            background-position: center;
+        }
+
+
+        h1 {
+            text-align: center;
+            color: red;
+            margin-top: 25px;
+        }
+
+        p {
+            text-align: center;
+            color: rgb(7, 3, 3);
+        }
+
+
+
+        button {
+            width: 200px;
+            padding: 15px 0;
+            text-align: center;
+            margin: 20px 10px;
+            border-radius: 25px;
+            font-weight: bold;
+            border: 2px solid #009688;
+            background: transparent;
+            color: blue;
+            position: relative;
+            overflow: hidden;
+            margin-top: 50px;
+        }
+
+        span {
+            background: #009688;
+            height: 100%;
+            width: 0;
+            border-radius: 25px;
+
+            left: 0;
+            bottom: 0;
+            z-index: -1;
+            transition: 0.5s;
+        }
+
+        button:hover span {
+            width: 100%;
+        }
+
+        button:hover {
+            background-color: red;
+            color: white;
+            transition: transform 0.3s;
+            transform: scale(1.05);
+        }
+        button:hover span {
+            border: none;
+            background-color: aqua;
+        }
+
+        h2 {
+            color: black;
+            text-align: center;
+
+
+
+        }
+
+        .content {
+            display: block;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>WELCOME TO</h1>
+    <br>
+    <h1>STYLEX SALON & SPA</h1>
+    <p>Experience relaxation, Style and beauty at its best</p>
+    <div class="welcome-banner"></div>
+    <br><br><br><br><br><br><br><br>
+    <div class="content">
+        <a href="service.html"><button type="button"><span></span>Explore Services</button></a>
+        <a href="logIn.html"><button type="button"><span></span>Book Appointment</button></a>
+        <h2> Add: Stylex Salon & Spa, sector - 42, Noida,<br>
+            Uttar pradesh</h2>
+    </div>
+
+</body>
+
+
+</html>
